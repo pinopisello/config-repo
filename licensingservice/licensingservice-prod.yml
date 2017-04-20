@@ -12,4 +12,4 @@ spring.datasource.initialize: "false"  #evita che schema.sql sia runnato ogni vo
 redis.server: "redis"
 redis.port: "6379"
 signing.key: "345345fsdfsf5345"
-example.property: "Sticazzi"
+example.property: "Sticazzo"
