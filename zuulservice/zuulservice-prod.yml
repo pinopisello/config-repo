@@ -10,7 +10,7 @@ zuul:
   organizationstatic:
     path: /organizationstatic/**
     url:  http://127.0.0.1:8080
-#hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 2
+hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 2000
 #hystrix.command.licensingservice.execution.isolation.thread.timeoutInMilliseconds: 2
 #licensingservice.ribbon.ReadTimeout: 2
 signing.key: "345345fsdfsf5345"
