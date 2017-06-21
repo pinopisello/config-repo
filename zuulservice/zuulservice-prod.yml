@@ -5,6 +5,11 @@ zuul.routes.licensingservice: /licensing/**
 zuul.routes.authenticationservice: /auth/**
 zuul.sensitiveHeaders: Cookie,Set-Cookie
 zuul.debug.request: true
+zuul:
+ routes:
+  organizationstatic:
+    path: /organizationstatic/**
+    url:  http://127.0.0.1:8080
 #hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 2
 #hystrix.command.licensingservice.execution.isolation.thread.timeoutInMilliseconds: 2
 #licensingservice.ribbon.ReadTimeout: 2
